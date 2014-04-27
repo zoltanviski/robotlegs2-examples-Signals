@@ -1,4 +1,4 @@
-package hu.vizoli.example.robotlegssignal.base 
+package hu.vizoli.examples.robotlegs2.as3signals.base 
 {
 	import flash.events.Event;
 	import flash.events.IEventDispatcher;

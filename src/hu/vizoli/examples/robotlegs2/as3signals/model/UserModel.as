@@ -1,7 +1,7 @@
-package hu.vizoli.example.robotlegssignal.model 
+package hu.vizoli.examples.robotlegs2.as3signals.model
 {
-	import hu.vizoli.example.robotlegssignal.base.BaseActor;
-	import hu.vizoli.example.robotlegssignal.signals.NickNameUpdatedSignal;
+	import hu.vizoli.examples.robotlegs2.as3signals.base.BaseActor;
+	import hu.vizoli.examples.robotlegs2.as3signals.signals.NickNameUpdatedSignal;
 	
 	/**
 	 * UserModel

@@ -1,7 +1,7 @@
-package hu.vizoli.example.robotlegssignal.view 
+package hu.vizoli.examples.robotlegs2.as3signals.view 
 {
-	import hu.vizoli.example.robotlegssignal.signals.ApplicationInitSignal;
-	import hu.vizoli.example.robotlegssignal.signals.NickNameUpdatedSignal;
+	import hu.vizoli.examples.robotlegs2.as3signals.signals.ApplicationInitSignal;
+	import hu.vizoli.examples.robotlegs2.as3signals.signals.NickNameUpdatedSignal;
 	import robotlegs.bender.bundles.mvcs.Mediator;
 	
 	/**

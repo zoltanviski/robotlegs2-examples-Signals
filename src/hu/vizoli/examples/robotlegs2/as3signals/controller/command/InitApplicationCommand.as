@@ -1,8 +1,8 @@
-package hu.vizoli.example.robotlegssignal.controller.command 
+package hu.vizoli.examples.robotlegs2.as3signals.controller.command 
 {
 	import flash.events.KeyboardEvent;
-	import hu.vizoli.example.robotlegssignal.base.BaseCommand;
-	import hu.vizoli.example.robotlegssignal.model.UserModel;
+	import hu.vizoli.examples.robotlegs2.as3signals.base.BaseCommand;
+	import hu.vizoli.examples.robotlegs2.as3signals.model.UserModel;
 	import robotlegs.bender.extensions.signalCommandMap.api.ISignalCommandMap;
 	
 	/**

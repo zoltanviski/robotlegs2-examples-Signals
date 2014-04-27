@@ -1,7 +1,7 @@
-package hu.vizoli.example.robotlegssignal.config 
+package hu.vizoli.examples.robotlegs2.as3signals.config
 {
-	import hu.vizoli.example.robotlegssignal.controller.command.InitApplicationCommand;
-	import hu.vizoli.example.robotlegssignal.signals.ApplicationInitSignal;
+	import hu.vizoli.examples.robotlegs2.as3signals.controller.command.InitApplicationCommand;
+	import hu.vizoli.examples.robotlegs2.as3signals.signals.ApplicationInitSignal;
 	import robotlegs.bender.extensions.eventCommandMap.api.IEventCommandMap;
 	import robotlegs.bender.extensions.signalCommandMap.api.ISignalCommandMap;
 	import robotlegs.bender.framework.api.IConfig;

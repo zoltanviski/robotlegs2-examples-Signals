@@ -1,7 +1,7 @@
-package hu.vizoli.example.robotlegssignal.config 
+package hu.vizoli.examples.robotlegs2.as3signals.config 
 {
-	import hu.vizoli.example.robotlegssignal.model.UserModel;
-	import hu.vizoli.example.robotlegssignal.signals.NickNameUpdatedSignal;
+	import hu.vizoli.examples.robotlegs2.as3signals.model.UserModel;
+	import hu.vizoli.examples.robotlegs2.as3signals.signals.NickNameUpdatedSignal;
 	import robotlegs.bender.framework.api.IConfig;
 	import robotlegs.bender.framework.api.IInjector;
 	

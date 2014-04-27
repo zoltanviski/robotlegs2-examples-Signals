@@ -1,4 +1,4 @@
-package hu.vizoli.example.robotlegssignal.signals 
+package hu.vizoli.examples.robotlegs2.as3signals.signals 
 {
 	import org.osflash.signals.Signal;
 	
@@ -7,7 +7,7 @@ package hu.vizoli.example.robotlegssignal.signals
 	 * 
 	 * @author vizoli
 	 */
-	public class ApplicationInitSignal extends Signal 
+	public class ApplicationInitSignal extends Signal
 	{
 		
 		public function ApplicationInitSignal( ) 

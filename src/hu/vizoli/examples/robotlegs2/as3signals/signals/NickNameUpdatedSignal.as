@@ -1,4 +1,4 @@
-package hu.vizoli.example.robotlegssignal.signals 
+package hu.vizoli.examples.robotlegs2.as3signals.signals 
 {
 	import org.osflash.signals.Signal;
 	

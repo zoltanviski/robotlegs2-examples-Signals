@@ -1,7 +1,7 @@
-package hu.vizoli.example.robotlegssignal.base
+package hu.vizoli.examples.robotlegs2.as3signals.base
 {
 	import flash.display.Sprite;
-	import hu.vizoli.example.robotlegssignal.base.interfaces.IBaseView;
+	import hu.vizoli.examples.robotlegs2.as3signals.base.interfaces.IBaseView;
 	
 	/**
 	 * BaseView

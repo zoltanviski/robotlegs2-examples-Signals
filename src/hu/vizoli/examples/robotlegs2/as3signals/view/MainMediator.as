@@ -1,7 +1,7 @@
-package hu.vizoli.example.robotlegssignal.view 
+package hu.vizoli.examples.robotlegs2.as3signals.view 
 {
 	import flash.events.KeyboardEvent;
-	import hu.vizoli.example.robotlegssignal.signals.ApplicationInitSignal;
+	import hu.vizoli.examples.robotlegs2.as3signals.signals.ApplicationInitSignal;
 	import robotlegs.bender.bundles.mvcs.Mediator;
 	
 	/**

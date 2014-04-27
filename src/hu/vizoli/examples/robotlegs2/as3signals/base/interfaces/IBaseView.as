@@ -1,4 +1,4 @@
-package hu.vizoli.example.robotlegssignal.base.interfaces 
+package hu.vizoli.examples.robotlegs2.as3signals.base.interfaces 
 {
 	/**
 	 * IBaseView

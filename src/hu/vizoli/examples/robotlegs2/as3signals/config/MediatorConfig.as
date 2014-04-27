@@ -1,8 +1,8 @@
-package hu.vizoli.example.robotlegssignal.config 
+package hu.vizoli.examples.robotlegs2.as3signals.config 
 {
-	import hu.vizoli.example.robotlegssignal.view.MainMediator;
-	import hu.vizoli.example.robotlegssignal.view.NicknameDisplayMediator;
-	import hu.vizoli.example.robotlegssignal.view.NicknameDisplayView;
+	import hu.vizoli.examples.robotlegs2.as3signals.view.MainMediator;
+	import hu.vizoli.examples.robotlegs2.as3signals.view.NicknameDisplayMediator;
+	import hu.vizoli.examples.robotlegs2.as3signals.view.NicknameDisplayView;
 	import robotlegs.bender.extensions.mediatorMap.api.IMediatorMap;
 	import robotlegs.bender.framework.api.IConfig;
 	import robotlegs.bender.framework.api.IInjector;

@@ -2,10 +2,10 @@ package
 {
 	import flash.display.Sprite;
 	import flash.events.Event;
-	import hu.vizoli.example.robotlegssignal.config.CommandConfig;
-	import hu.vizoli.example.robotlegssignal.config.MediatorConfig;
-	import hu.vizoli.example.robotlegssignal.config.ModelConfig;
-	import hu.vizoli.example.robotlegssignal.view.NicknameDisplayView;
+	import hu.vizoli.examples.robotlegs2.as3signals.config.CommandConfig;
+	import hu.vizoli.examples.robotlegs2.as3signals.config.MediatorConfig;
+	import hu.vizoli.examples.robotlegs2.as3signals.config.ModelConfig;
+	import hu.vizoli.examples.robotlegs2.as3signals.view.NicknameDisplayView;
 	import robotlegs.bender.bundles.mvcs.MVCSBundle;
 	import robotlegs.bender.extensions.contextView.ContextView;
 	import robotlegs.bender.extensions.signalCommandMap.impl.SignalCommandMap;

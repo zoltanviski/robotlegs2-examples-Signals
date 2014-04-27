@@ -1,7 +1,7 @@
-package hu.vizoli.example.robotlegssignal.view 
+package hu.vizoli.examples.robotlegs2.as3signals.view 
 {
 	import flash.text.TextField;
-	import hu.vizoli.example.robotlegssignal.base.BaseView;
+	import hu.vizoli.examples.robotlegs2.as3signals.base.BaseView;
 	
 	/**
 	 * NicknameDisplayView
