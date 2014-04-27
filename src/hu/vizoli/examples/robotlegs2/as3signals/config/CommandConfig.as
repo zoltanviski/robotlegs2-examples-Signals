@@ -16,6 +16,15 @@ package hu.vizoli.examples.robotlegs2.as3signals.config
 		[Inject]
 		public var commandMap:ISignalCommandMap;
 		
+		//--------------------------------------------------------------------------
+		//
+		//  Public methods
+		//
+		//--------------------------------------------------------------------------
+		
+		/**
+		 * Configure
+		 */
 		public function configure():void
 		{
 			this.commandMap.map( ApplicationInitSignal ).toCommand( InitApplicationCommand );

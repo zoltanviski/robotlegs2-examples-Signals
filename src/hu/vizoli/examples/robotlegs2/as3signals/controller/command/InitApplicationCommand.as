@@ -15,6 +15,12 @@ package hu.vizoli.examples.robotlegs2.as3signals.controller.command
 		[Inject]
 		public var userModel:UserModel;
 		
+		//--------------------------------------------------------------------------
+		//
+		//  Overriden methods
+		//
+		//--------------------------------------------------------------------------
+		
 		/**
 		 * Override the execute
 		 */

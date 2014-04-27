@@ -20,8 +20,14 @@ package hu.vizoli.examples.robotlegs2.as3signals.view
 		[Inject]
 		public var nickNameUpdatedSignal:NickNameUpdatedSignal;
 		
+		//--------------------------------------------------------------------------
+		//
+		//  Overriden methods
+		//
+		//--------------------------------------------------------------------------
+		
 		/**
-		 * Override the initialize
+		 * @inheritDoc
 		 */
 		override public function initialize():void
 		{
@@ -29,6 +35,12 @@ package hu.vizoli.examples.robotlegs2.as3signals.view
 			
 			this.applicationInitSignal.dispatch();
 		}
+		
+		//--------------------------------------------------------------------------
+		//
+		//  Private methods
+		//
+		//--------------------------------------------------------------------------
 		
 		/**
 		 * NickNameUpdatedSignal Handler

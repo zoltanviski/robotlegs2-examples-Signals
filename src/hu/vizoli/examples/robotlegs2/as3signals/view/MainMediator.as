@@ -14,8 +14,14 @@ package hu.vizoli.examples.robotlegs2.as3signals.view
 		[Inject]
 		public var view:Main;
 		
+		//--------------------------------------------------------------------------
+		//
+		//  Overriden methods
+		//
+		//--------------------------------------------------------------------------
+		
 		/**
-		 * Override the initialize
+		 * @inheritDoc
 		 */
 		override public function initialize():void
 		{

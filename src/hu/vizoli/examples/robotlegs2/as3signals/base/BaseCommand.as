@@ -13,6 +13,15 @@ package hu.vizoli.examples.robotlegs2.as3signals.base
 		[Inject]
 		public var eventDispatcher:IEventDispatcher;
 		
+		//--------------------------------------------------------------------------
+		//
+		//  Constructor
+		//
+		//--------------------------------------------------------------------------
+		
+		/**
+		 * BaseCommand
+		 */
 		public function BaseCommand() 
 		{
 			super();

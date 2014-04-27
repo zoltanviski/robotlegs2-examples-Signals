@@ -10,6 +10,15 @@ package hu.vizoli.examples.robotlegs2.as3signals.signals
 	public class NickNameUpdatedSignal extends Signal 
 	{
 		
+		//--------------------------------------------------------------------------
+		//
+		//  Constructor
+		//
+		//--------------------------------------------------------------------------
+		
+		/**
+		 * NickNameUpdatedSignal
+		 */
 		public function NickNameUpdatedSignal( ) 
 		{
 			super( String );

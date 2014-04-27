@@ -13,10 +13,21 @@ package hu.vizoli.examples.robotlegs2.as3signals.base
 		[Inject]
 		public var eventDispatcher:IEventDispatcher;
 		
-		protected function dispatch( event:Event ):void
+		//--------------------------------------------------------------------------
+		//
+		//  Protected methods
+		//
+		//--------------------------------------------------------------------------
+		
+		/**
+		 * Dispatch event
+		 * 
+		 * @param	e
+		 */
+		protected function dispatch( e:Event ):void
 		{
-			if ( this.eventDispatcher.hasEventListener( event.type ) )
-				this.eventDispatcher.dispatchEvent( event );
+			if ( this.eventDispatcher.hasEventListener( e.type ) )
+				this.eventDispatcher.dispatchEvent( e );
 		}
 	}
 }

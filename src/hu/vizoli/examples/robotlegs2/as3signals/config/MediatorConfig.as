@@ -17,8 +17,14 @@ package hu.vizoli.examples.robotlegs2.as3signals.config
 		[Inject]
 		public var mediatorMap:IMediatorMap;
 		
+		//--------------------------------------------------------------------------
+		//
+		//  Public methods
+		//
+		//--------------------------------------------------------------------------
+		
 		/**
-		 * configure
+		 * Configure
 		 */
 		public function configure():void
 		{

@@ -11,10 +11,25 @@ package hu.vizoli.examples.robotlegs2.as3signals.base
 	public class BaseView extends Sprite implements IBaseView
 	{
 		
+		//--------------------------------------------------------------------------
+		//
+		//  Constructor
+		//
+		//--------------------------------------------------------------------------
+		
+		/**
+		 * BaseView
+		 */
 		public function BaseView() 
 		{
 			super();
 		}
+		
+		//--------------------------------------------------------------------------
+		//
+		//  Public methods
+		//
+		//--------------------------------------------------------------------------
 		
 		/**
 		 * Create the children

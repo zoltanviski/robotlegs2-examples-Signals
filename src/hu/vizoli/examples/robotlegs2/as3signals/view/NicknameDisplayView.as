@@ -12,6 +12,15 @@ package hu.vizoli.examples.robotlegs2.as3signals.view
 	{
 		private var _nicknameText:TextField;
 		
+		//--------------------------------------------------------------------------
+		//
+		//  Constructor
+		//
+		//--------------------------------------------------------------------------
+		
+		/**
+		 * NicknameDisplayView
+		 */
 		public function NicknameDisplayView() 
 		{
 			this._nicknameText = new TextField();
@@ -19,13 +28,25 @@ package hu.vizoli.examples.robotlegs2.as3signals.view
 			this.createChildren();
 		}
 		
+		//--------------------------------------------------------------------------
+		//
+		//  Overriden methods
+		//
+		//--------------------------------------------------------------------------
+		
 		/**
-		 * Create children
+		 * @inheritDoc
 		 */
 		override public function createChildren():void
 		{
 			this.addChild( this._nicknameText );
 		}
+		
+		//--------------------------------------------------------------------------
+		//
+		//  Public methods
+		//
+		//--------------------------------------------------------------------------
 		
 		/**
 		 * Update the nickname
